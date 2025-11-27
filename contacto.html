@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe Paris</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Cafe parís</h1>
+    <p id="eslogan">Un momento de relax</p>
+    <ul>
+    <li><a href="index.html">Principal</a></li>
+    <li><a href="carta.html">Nuestra carta</a></li>
+    <li><a href="contacto.html">Contácte con nosotros</a></li>
+    </ul>
+    <h2>Contacte con Nosotros</h2>
+    <form action="procesacontacto.php" method="get">
+    <p>
+        <label for="Name">Nombre y Apellidos: <input type="text" name="Nombre y Apellidos" id="name" required></label>
+    </p>
+    <p>
+        <label for="fecha-nac">Fecha de nacimiento <input type="date" name="fecha-nac" id="fecha-nac"></label>
+    </p>
+    <p>
+        <label for="Suele">Suele consumir <input type="radio" name="consume" id="suele" value="cafe">Café 
+            <input type="radio" name="consume" id="suele" value="cafe">Té 
+            <input type="radio" name="consume" id="suele" value="cafe">Ambos </label>
+    </p>
+    <p>
+        <label for="Num">Numeros de cafes al dia <input type="number" name="cafes" id="cafes" min="1" max="5"></label>
+    </p>
+    <p>
+        <label for="cafeteria">Seleccione su cafeteria</label>
+        <select name="cafeteria" id="cafeteria">
+            <option value="Mdr" selected>Madrid</option>
+            <option value="Brc">Barcelona</option>
+            <option value="Sva">Sevilla</option>
+        </select>
+    </p>
+    <p>
+        <input type="checkbox" name="deseo" id="deseo" checked><label for="dese">Deseo recibir informacion sobre novedades y ofertas</label>
+    </p>
+    <input type="submit" id="enviar" value="Enviar">
+    <input type="reset" name="reset" id="reset" value="reiniciar">
+    </form>
+</body>
+</html>

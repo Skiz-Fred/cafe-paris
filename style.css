@@ -1,0 +1,171 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Pacifico&family=Parisienne&family=Satisfy&display=swap');
+body {
+    padding: 0 20px 0 20px;
+    background-image: url("https://www.fmdos.cl/wp-content/uploads/2020/10/8de1aa1026a673886c0a6020541354b2.jpg");
+    background-size:cover;
+    background-color: black;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 5px;
+    color: darkgoldenrod;
+    font-family: "Parisienne", cursive;
+}
+
+#eslogan {
+    font-family:  "Caveat", cursive;
+    text-align: center;
+    font-size: 2em;
+    color: cornsilk;
+    border: 2px solid cornsilk;
+    width: 40%;
+    margin: auto;
+}
+
+h2 {   
+    color: #FFE4C4;
+    font-family: "Pacifico", cursive;
+}
+
+ul,li,a {
+    font-size: 1.2em;
+    font-family:"Pacifico", cursive ;
+    text-decoration: none;
+    color: white;
+}
+
+a:link {
+    color: white;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+a:active{
+    color: darkgoldenrod;
+}
+
+a:visited {
+    color: white;
+}
+
+.texto-normal {
+    font-family: "Satisfy", cursive;
+    font-size: 1.2em;
+    color: #FFE4C4;
+    text-align: justify;
+    line-height: 2;
+    padding: 30px;
+}
+
+#logocafe {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+#contenedor-logo {
+    text-align: center;
+}
+/*estilos carta*/
+.fotocarta {
+    height: 200px;
+    width: 200px;
+}
+
+.categoria {
+    background-color: darkgoldenrod;
+    font-size: 2em;
+    text-shadow: 3px 3px white;
+}
+
+table,td,th {
+    border: 3px solid darkgoldenrod;
+    border-collapse: collapse;
+    vertical-align:center;
+    width: 50%;
+    padding: 20px;
+}
+
+table {
+    background-color: cornsilk;
+    font-family: "Satisfy", cursive;
+    font-size: 1.5em;
+    text-align: center;
+    margin: auto;
+}
+/*Formulario*/
+form {
+    border: 2px solid darkgoldenrod;
+    border-radius: 20px;
+    width: 50%;
+    margin: auto;
+    padding: 30px;
+    background-color: black;
+}
+
+label {
+    font-family: "Caveat", cursive ;
+    color: cornsilk;
+    font-size: 1.5em;
+}
+
+#enviar {
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    border: 2px solid darkgoldenrod;
+    color: darkgoldenrod;
+    padding: 5px;
+}
+
+#reset {
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    border: 2px solid darkgoldenrod;
+    color: darkgoldenrod;
+    padding: 5px;
+}
+
+#cafes {
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    border: 2px solid darkgoldenrod;
+    color: darkgoldenrod;
+    width: 40px;
+    text-align: center;
+}
+
+#suele {
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    border: 2px solid darkgoldenrod;
+    color: darkgoldenrod;
+    padding: 5px;
+}
+
+#fecha-nac {
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    border: 2px solid darkgoldenrod;
+    color: darkgoldenrod;
+    padding: 5px;
+}
+
+#name {
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    border: 2px solid darkgoldenrod;
+    color: darkgoldenrod;
+}
+
+#cafeteria {
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    border: 2px solid darkgoldenrod;
+    color: darkgoldenrod;
+    padding: 5px;
+}
